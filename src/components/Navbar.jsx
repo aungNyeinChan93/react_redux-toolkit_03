@@ -43,12 +43,12 @@ const Navbar = () => {
                                     </li>
 
                                     <li>
-                                        <a
+                                        <Link
                                             className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                                            href="#"
+                                            to="/products"
                                         >
-                                            Careers
-                                        </a>
+                                            Products
+                                        </Link>
                                     </li>
 
                                     <li>
