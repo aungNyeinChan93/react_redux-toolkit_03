@@ -4,6 +4,8 @@ import MasterLayout from './layouts/MasterLayout'
 import CatPage from './pages/CatPage';
 import ProductPage from './pages/ProductPage';
 import DetailProduct from './pages/DetailProduct';
+import UserPage from './pages/User/UserPage';
+import DetailUser from './pages/User/DetailUser';
 
 export const routes = createBrowserRouter([
     {
@@ -17,7 +19,10 @@ export const routes = createBrowserRouter([
                     // { path: ':id', Component: DetailProduct }
                 ],
             },
-            { path: 'products/:id', Component: DetailProduct }
+            { path: 'products/:id', Component: DetailProduct },
+
+            { path: 'users', Component: UserPage },
+            { path: 'users/:id', Component: DetailUser },
         ]
     }
 ]);

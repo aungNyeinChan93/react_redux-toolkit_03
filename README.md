@@ -1,12 +1,57 @@
-# React + Vite
+# React + Vite Starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal template to kickstart React projects with Vite, featuring HMR and basic ESLint setup.
 
-Currently, two official plugins are available:
+## Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡️ Lightning-fast development with Vite
+- 🔥 React Hot Module Replacement (HMR)
+- 🧹 Basic ESLint configuration
+- 🛠️ Easy extension for TypeScript and advanced linting
 
-## Expanding the ESLint configuration
+## Official Plugins
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) — uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) — uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Getting Started
+
+1. **Install dependencies**
+   ```bash
+   npm install
+   ```
+2. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+3. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+## Project Structure
+
+```
+.
+├── public/             # Static assets
+├── src/                # React source code
+│   ├── App.jsx         # Main App component
+│   └── main.jsx        # Entry point for React
+├── .eslintrc           # ESLint configuration
+├── index.html          # HTML template
+└── package.json        # Project metadata and scripts
+```
+
+## ESLint & TypeScript
+
+For production apps, consider using TypeScript with type-aware linting. See the [React + TypeScript template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) and [`typescript-eslint`](https://typescript-eslint.io) for integration details.
+
+## Learn More
+
+- [Vite Documentation](https://vitejs.dev/)
+- [React Documentation](https://react.dev/)
+- [ESLint Documentation](https://eslint.org/)
+
+## License
+
+MIT
