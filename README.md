@@ -2,6 +2,12 @@
 
 A minimal template to kickstart React projects with Vite, featuring HMR and basic ESLint setup.
 
+# Open in StackBlitz
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/~/github.com/aungNyeinChan93/react_redux-toolkit_03)
+
+https://stackblitz.com/~/github.com/aungNyeinChan93/react_redux-toolkit_03
+
 ## Key Features
 
 - ⚡️ Lightning-fast development with Vite
