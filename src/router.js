@@ -6,6 +6,10 @@ import ProductPage from './pages/ProductPage';
 import DetailProduct from './pages/DetailProduct';
 import UserPage from './pages/User/UserPage';
 import DetailUser from './pages/User/DetailUser';
+import GuestLayout from './layouts/GuestLayout';
+import LoginPage from './pages/auth/LoginPage';
+import PostPage from './pages/post/PostPage';
+import DetailPost from './pages/post/DetailPost';
 
 export const routes = createBrowserRouter([
     {
@@ -23,6 +27,15 @@ export const routes = createBrowserRouter([
 
             { path: 'users', Component: UserPage },
             { path: 'users/:id', Component: DetailUser },
+
+            // posts
+            { path: '/posts', Component: PostPage },
+            { path: '/posts/:id', Component: DetailPost },
+        ]
+    },
+    {
+        path: '/auth', Component: GuestLayout, children: [
+            { path: 'login', Component: LoginPage }
         ]
     }
 ]);
