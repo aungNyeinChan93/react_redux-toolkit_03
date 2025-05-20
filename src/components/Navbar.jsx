@@ -70,21 +70,21 @@ const Navbar = () => {
                                     </li>
 
                                     <li>
-                                        <a
+                                        <Link
                                             className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                                            href="#"
+                                            to="/quotes"
                                         >
-                                            Projects
-                                        </a>
+                                            Quotes
+                                        </Link>
                                     </li>
 
                                     <li>
-                                        <a
+                                        <Link
                                             className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                                            href="#"
+                                            to="/dogs"
                                         >
-                                            Blog
-                                        </a>
+                                            Dogs
+                                        </Link>
                                     </li>
                                 </ul>
                             </nav>

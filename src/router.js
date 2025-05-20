@@ -10,6 +10,8 @@ import GuestLayout from './layouts/GuestLayout';
 import LoginPage from './pages/auth/LoginPage';
 import PostPage from './pages/post/PostPage';
 import DetailPost from './pages/post/DetailPost';
+import QuotePage from './pages/quote/QuotePage';
+import DogPage from './pages/dog/DogPage';
 
 export const routes = createBrowserRouter([
     {
@@ -31,6 +33,13 @@ export const routes = createBrowserRouter([
             // posts
             { path: '/posts', Component: PostPage },
             { path: '/posts/:id', Component: DetailPost },
+
+            // quotes
+            { path: '/quotes', Component: QuotePage },
+
+            // dogs
+            { path: '/dogs', Component: DogPage }
+
         ]
     },
     {
